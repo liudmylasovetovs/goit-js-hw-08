@@ -1,0 +1,22 @@
+.gallery-image {
+    cursor: pointer; 
+    transition: transform 0.3s ease; 
+}
+
+.gallery-image:hover, .gallery-image:focus {
+    transform: scale(1.044); 
+}
+
+.gallery {
+    list-style: none;
+    margin: 0; 
+    padding: 0; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px 24px; 
+    padding: 24px 156px; 
+}
+
+.gallery li {
+    list-style-type: none; 
+}
